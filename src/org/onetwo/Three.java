@@ -9,10 +9,10 @@ public class Three {
 		driver.navigate().to("\"https://www.facebook.com/\"");
 		String currentUrl = driver.getCurrentUrl();
 		System.out.println(currentUrl);
-		driver.quit();
+		driver.close();
 		
 	}
 	}
 
 
-}
+
